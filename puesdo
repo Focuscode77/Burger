@@ -1,0 +1,13 @@
+Before beginning this program create a process of how you will complete it!
+
+Whats step will you take and what order will you go in to make it work.
+
+MVC = Model(database/Mysql).......View(Client/handlebars)........Controller(pathways/express)
+
+The controller is used to tell the Model and view what to do by using pathways.
+
+The modal controls all databases  by using mysql aswell as the ORM which stands for OBJECT RELATIONAL Mapping.
+
+We will use ORM as basicly a map so the we can use mysql more effeintly.
+
+Create logic for the ORM using data base mysql as your guide

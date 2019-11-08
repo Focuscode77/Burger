@@ -1,0 +1,2 @@
+-- All inserts go here floowing after the sql file is finished. Remember to copy and paste this into mysql work
+-- bench in order for it to work!
