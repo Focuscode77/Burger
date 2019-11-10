@@ -18,15 +18,9 @@
   {{/each}}
 </ul>
 
-<h2>Cats that are sleepy!</h2>
 
-<ul>
-  {{#each burgers}}
-    {{#if hungry}}
-      {{> burgers/burger-block sleep=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+
+
 
 
 
@@ -52,3 +46,5 @@
 
 
 {{!-- Button to add burger goes in this file also --}}
+
+<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
