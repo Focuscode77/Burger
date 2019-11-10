@@ -23,7 +23,7 @@ router.get("/", function(req, res) {
   });
   
   router.post("/api/burger", function(req, res) {
-    burger.create(["burger", "sleepy"], [req.body.burger, req.body.sleepy], function(result) {
+    burger.create(["name", "hungry"], [req.body.name, req.body.hungry], function(result) {
       // Send back the ID of the new quote
       res.json({ id: result.insertId });
     });
@@ -36,7 +36,7 @@ router.get("/", function(req, res) {
   
     cat.update(
       {
-        sleepy: req.body.sleepy
+        hungry: req.body.hungry
       },
       condition,
       function(result) {
@@ -49,8 +49,6 @@ router.get("/", function(req, res) {
       }
     );
   });
-
-
 
 
 
@@ -80,6 +78,3 @@ module.exports = router;
 
 
 
-
-// Export routes for server.js to use.
-module.exports = router;

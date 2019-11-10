@@ -10,7 +10,23 @@
 
 {{!-- Logic goes here --}}
 
+<ul>
+  {{#each burger}}
+    {{#unless hungry}}
+      {{> burgers/burger-block hungry=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
 
+<h2>Cats that are sleepy!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if hungry}}
+      {{> burgers/burger-block sleep=false}}
+    {{/if}}
+  {{/each}}
+</ul>
 
 
 

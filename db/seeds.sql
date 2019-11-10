@@ -3,11 +3,11 @@
 
 ---------------------------------List of Burgers to chosee from in my database----------------------
 
-INSERT INTO resturant (burger) VALUES ('Chesseburger');
+INSERT INTO burger (name) VALUES ('Chesseburger');
 
-INSERT INTO resturant (burger) VALUES ('Bacon chesseburger');
+INSERT INTO burger (name) VALUES ('Bacon chesseburger');
 
-INSERT INTO resturant (burger) VALUES ('Chicken chesseburger');
+INSERT INTO burger (name) VALUES ('Chicken chesseburger');
 
-INSERT INTO resturant (burger) VALUES ('Philadelphia chesseburger');
+INSERT INTO burger (name,hungry) VALUES ('Philadelphia chesseburger',true);
 

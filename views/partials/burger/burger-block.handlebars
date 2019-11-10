@@ -1,1 +1,9 @@
-{{!-- IF ELSE Logic gooes here for handlebars --}}
+<li>
+	{{name}}
+
+	<button class="change-hunger" data-id="{{id}}" data-newhunger="{{hungry}}">
+		{{#if hungry}}Time to Eat!{{else}}im hungry!{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li>
